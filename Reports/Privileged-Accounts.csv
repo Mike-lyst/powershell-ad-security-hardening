@@ -1,0 +1,5 @@
+"Group","Name","SamAccountName","ObjectClass"
+"Administrators","Administrator","Administrator","user"
+"Domain Admins","Administrator","Administrator","user"
+"Enterprise Admins","Administrator","Administrator","user"
+"Schema Admins","Administrator","Administrator","user"

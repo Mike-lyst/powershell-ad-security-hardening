@@ -1,0 +1,142 @@
+2026-08-02 15:24:31 [INFO] Security audit started.
+2026-08-02 15:24:31 [INFO] Running Security-Audit.ps1
+2026-08-02 15:24:31 [INFO] Security-Audit.ps1 completed successfully.
+2026-08-02 15:24:31 [INFO] Running Privileged-Accounts.ps1
+2026-08-02 15:24:31 [INFO] Privileged-Accounts.ps1 completed successfully.
+2026-08-02 15:24:31 [INFO] Running Password-Policy.ps1
+2026-08-02 15:24:31 [INFO] Password-Policy.ps1 completed successfully.
+2026-08-02 15:24:31 [INFO] Running DC-Health.ps1
+2026-08-02 15:24:31 [INFO] DC-Health.ps1 completed successfully.
+2026-08-02 15:24:31 [INFO] Running DNS-Health.ps1
+2026-08-02 15:24:31 [INFO] DNS-Health.ps1 completed successfully.
+2026-08-02 15:24:31 [INFO] Running Replication-Health.ps1
+2026-08-02 15:24:31 [INFO] Replication-Health.ps1 completed successfully.
+2026-08-02 15:24:31 [INFO] Running Security-Dashboard.ps1
+2026-08-02 15:24:31 [INFO] Security-Dashboard.ps1 completed successfully.
+2026-08-02 15:24:31 [INFO] Project completed successfully.
+2026-08-02 15:44:41 [INFO] Security Hardening Project Started.
+2026-08-02 15:44:42 [INFO] Starting Active Directory Security Audit.
+2026-08-02 15:44:42 [INFO] Collecting disabled accounts...
+2026-08-02 15:44:43 [INFO] 12 disabled account(s) exported.
+2026-08-02 15:44:43 [INFO] Collecting inactive accounts...
+2026-08-02 15:44:43 [INFO] 94 inactive account(s) exported.
+2026-08-02 15:44:44 [INFO] Collecting locked accounts...
+2026-08-02 15:44:44 [INFO] 0 locked account(s) exported.
+2026-08-02 15:44:44 [INFO] Collecting accounts with password never expires...
+2026-08-02 15:44:44 [INFO] 47 account(s) found.
+2026-08-02 15:44:44 [INFO] Collecting expired passwords...
+2026-08-02 15:44:44 [INFO] 0 expired password account(s).
+2026-08-02 15:44:44 [INFO] Collecting accounts that never logged on...
+2026-08-02 15:44:44 [INFO] 94 account(s) never logged on.
+2026-08-02 15:44:45 [INFO] Security audit completed successfully.
+2026-08-02 15:44:45 [INFO] Security-Audit.ps1 completed successfully.
+2026-08-02 15:44:45 [INFO] Starting privileged account audit.
+2026-08-02 15:44:45 [INFO] Checking group: Domain Admins
+2026-08-02 15:44:47 [INFO]  member(s) found in Domain Admins.
+2026-08-02 15:44:47 [INFO] Checking group: Enterprise Admins
+2026-08-02 15:44:47 [INFO]  member(s) found in Enterprise Admins.
+2026-08-02 15:44:47 [INFO] Checking group: Schema Admins
+2026-08-02 15:44:47 [INFO]  member(s) found in Schema Admins.
+2026-08-02 15:44:47 [INFO] Checking group: Administrators
+2026-08-02 15:44:47 [INFO]  member(s) found in Administrators.
+2026-08-02 15:44:47 [INFO] Checking group: Account Operators
+2026-08-02 15:44:47 [WARNING] No members found in Account Operators.
+2026-08-02 15:44:47 [INFO] Checking group: Server Operators
+2026-08-02 15:44:48 [WARNING] No members found in Server Operators.
+2026-08-02 15:44:48 [INFO] Checking group: Backup Operators
+2026-08-02 15:44:48 [WARNING] No members found in Backup Operators.
+2026-08-02 15:44:48 [INFO] Checking group: Print Operators
+2026-08-02 15:44:48 [WARNING] No members found in Print Operators.
+2026-08-02 15:44:48 [INFO] Privileged account audit completed successfully.
+2026-08-02 15:44:48 [INFO] Privileged-Accounts.ps1 completed successfully.
+2026-08-02 15:44:48 [INFO] Starting password policy audit.
+2026-08-02 15:44:49 [INFO] Password policy collected successfully.
+2026-08-02 15:44:49 [INFO] Password policy audit completed successfully.
+2026-08-02 15:44:49 [INFO] Password-Policy.ps1 completed successfully.
+2026-08-02 15:44:49 [INFO] Starting Domain Controller Health Check.
+2026-08-02 15:44:49 [INFO] Checking DC-01.RaletCloud.local
+2026-08-02 15:44:53 [INFO] Domain Controller Health Check Completed.
+2026-08-02 15:44:53 [INFO] DC-Health.ps1 completed successfully.
+2026-08-02 15:44:53 [INFO] Starting DNS Health Check.
+2026-08-02 15:44:53 [INFO] Checking DNS on DC-01.RaletCloud.local
+2026-08-02 15:45:15 [INFO] DNS Health Check Completed.
+2026-08-02 15:45:15 [INFO] DNS-Health.ps1 completed successfully.
+2026-08-02 15:45:15 [INFO] Starting Active Directory Replication Health Check.
+2026-08-02 15:45:15 [INFO] Running repadmin /replsummary...
+2026-08-02 15:45:16 [INFO] Replication summary saved.
+2026-08-02 15:45:16 [INFO] Collecting replication partners...
+2026-08-02 15:45:16 [INFO] Replication partner information saved.
+2026-08-02 15:45:16 [INFO] Replication Health Check Completed.
+2026-08-02 15:45:16 [INFO] Replication-Health.ps1 completed successfully.
+2026-08-02 15:45:16 [INFO] Building Active Directory Security Dashboard.
+2026-08-02 15:45:17 [INFO] Security dashboard generated successfully.
+2026-08-02 15:45:17 [INFO] Security-Dashboard.ps1 completed successfully.
+2026-08-02 15:45:17 [INFO] Master execution completed.
+2026-08-02 15:50:00 [INFO] Starting Active Directory Security Audit.
+2026-08-02 15:50:00 [INFO] Collecting disabled accounts...
+2026-08-02 15:50:00 [INFO] 12 disabled account(s) exported.
+2026-08-02 15:50:00 [INFO] Collecting inactive accounts...
+2026-08-02 15:50:00 [INFO] 94 inactive account(s) exported.
+2026-08-02 15:50:00 [INFO] Collecting locked accounts...
+2026-08-02 15:50:00 [INFO] 0 locked account(s) exported.
+2026-08-02 15:50:01 [INFO] Collecting accounts with password never expires...
+2026-08-02 15:50:01 [INFO] 47 account(s) found.
+2026-08-02 15:50:01 [INFO] Collecting expired passwords...
+2026-08-02 15:50:01 [INFO] 0 expired password account(s).
+2026-08-02 15:50:01 [INFO] Collecting accounts that never logged on...
+2026-08-02 15:50:01 [INFO] 94 account(s) never logged on.
+2026-08-02 15:50:02 [INFO] Security audit completed successfully.
+2026-08-02 15:52:35 [INFO] Starting privileged account audit.
+2026-08-02 15:52:35 [INFO] Checking group: Domain Admins
+2026-08-02 15:52:35 [INFO]  member(s) found in Domain Admins.
+2026-08-02 15:52:35 [INFO] Checking group: Enterprise Admins
+2026-08-02 15:52:36 [INFO]  member(s) found in Enterprise Admins.
+2026-08-02 15:52:36 [INFO] Checking group: Schema Admins
+2026-08-02 15:52:36 [INFO]  member(s) found in Schema Admins.
+2026-08-02 15:52:36 [INFO] Checking group: Administrators
+2026-08-02 15:52:36 [INFO]  member(s) found in Administrators.
+2026-08-02 15:52:36 [INFO] Checking group: Account Operators
+2026-08-02 15:52:36 [WARNING] No members found in Account Operators.
+2026-08-02 15:52:36 [INFO] Checking group: Server Operators
+2026-08-02 15:52:36 [WARNING] No members found in Server Operators.
+2026-08-02 15:52:36 [INFO] Checking group: Backup Operators
+2026-08-02 15:52:36 [WARNING] No members found in Backup Operators.
+2026-08-02 15:52:37 [INFO] Checking group: Print Operators
+2026-08-02 15:52:37 [WARNING] No members found in Print Operators.
+2026-08-02 15:52:37 [INFO] Privileged account audit completed successfully.
+2026-08-04 07:43:03 [INFO] Starting Domain Controller Health Check.
+2026-08-04 07:43:04 [INFO] Checking DC-01.RaletCloud.local
+2026-08-04 07:43:12 [INFO] Domain Controller Health Check Completed.
+2026-08-04 08:19:11 [INFO] Starting Active Directory Security Audit.
+2026-08-04 08:19:11 [INFO] Collecting disabled accounts...
+2026-08-04 08:19:13 [INFO] 12 disabled account(s) exported.
+2026-08-04 08:19:13 [INFO] Collecting inactive accounts...
+2026-08-04 08:19:14 [INFO] 94 inactive account(s) exported.
+2026-08-04 08:19:14 [INFO] Collecting locked accounts...
+2026-08-04 08:19:14 [INFO] 0 locked account(s) exported.
+2026-08-04 08:19:14 [INFO] Collecting accounts with password never expires...
+2026-08-04 08:19:14 [INFO] 47 account(s) found.
+2026-08-04 08:19:14 [INFO] Collecting expired passwords...
+2026-08-04 08:19:15 [INFO] 0 expired password account(s).
+2026-08-04 08:19:15 [INFO] Collecting accounts that never logged on...
+2026-08-04 08:19:15 [INFO] 94 account(s) never logged on.
+2026-08-04 08:19:16 [INFO] Security audit completed successfully.
+2026-08-04 08:21:02 [INFO] Starting password policy audit.
+2026-08-04 08:21:02 [INFO] Password policy collected successfully.
+2026-08-04 08:21:03 [INFO] Password policy audit completed successfully.
+2026-08-04 08:30:01 [INFO] Building Active Directory Security Dashboard.
+2026-08-04 08:30:01 [INFO] Security dashboard generated successfully.
+2026-08-04 08:30:20 [INFO] Starting Active Directory Security Audit.
+2026-08-04 08:30:20 [INFO] Collecting disabled accounts...
+2026-08-04 08:30:20 [INFO] 12 disabled account(s) exported.
+2026-08-04 08:30:20 [INFO] Collecting inactive accounts...
+2026-08-04 08:30:21 [INFO] 94 inactive account(s) exported.
+2026-08-04 08:30:21 [INFO] Collecting locked accounts...
+2026-08-04 08:30:21 [INFO] 0 locked account(s) exported.
+2026-08-04 08:30:21 [INFO] Collecting accounts with password never expires...
+2026-08-04 08:30:21 [INFO] 47 account(s) found.
+2026-08-04 08:30:21 [INFO] Collecting expired passwords...
+2026-08-04 08:30:21 [INFO] 0 expired password account(s).
+2026-08-04 08:30:21 [INFO] Collecting accounts that never logged on...
+2026-08-04 08:30:21 [INFO] 94 account(s) never logged on.
+2026-08-04 08:30:22 [INFO] Security audit completed successfully.

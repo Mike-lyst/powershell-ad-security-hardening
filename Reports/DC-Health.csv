@@ -1,0 +1,2 @@
+"DomainController","Site","IPv4Address","Reachable","OperatingSystem","UptimeDays","FreeMemoryMB","DriveC_FreeGB","DriveC_SizeGB"
+"DC-01.RaletCloud.local","Default-First-Site-Name","192.168.10.10","True","Windows Server 2022 Standard Evaluation","0","572.59","18.53","29.39"
